@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "pinMode引脚模式",
+		"en": "pinMode NPUT_PULLUP"
+	},
+	"description": {
+		"zh-cn": "可以设置引脚编号及pinMode模式，方便按钮输入及流水灯等电子实验。",
+		"en": "INPUT_PULLUP."
+	},
+	"author": "liliang",
+	"email": "969316753@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "pinmode",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32"],
+			"main": "main.ts"
+		}
+	}
+}

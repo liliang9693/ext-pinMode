@@ -1,0 +1,8 @@
+{
+    "toolbox.digitalRead|block": "读取数字引脚[PIN1]",
+    "toolbox.analogRead|block": "读取模拟引脚[PIN2]",
+    "toolbox.analogWrite|block": "设置pwm引脚[PIN3]模拟输出[PWM]",
+    "toolbox.digitalWrite|block": "设置数字引脚[PIN4]输出为[VAL]",
+    "toolbox.pinMode|block": "设置引脚[PININPUT]模式为[PINMODE]"
+
+}
