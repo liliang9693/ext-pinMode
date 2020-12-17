@@ -13,12 +13,12 @@
 	"isBoard": false,
 	"id": "pinmode",
 	"platform": ["win", "mac", "web"],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.0.1",
-			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32"],
+			"version": "0.0.2",
+			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32","telloesp32"],
 			"main": "main.ts"
 		}
 	}

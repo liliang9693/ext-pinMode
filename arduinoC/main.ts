@@ -1,32 +1,4 @@
 
-enum SIZE {
-    //% block="29*29"
-    1,
-    //% block="58*58"
-    2
-}
-
-enum LINE {
-    //% block="1"
-    1,
-    //% block="2"
-    2,
-    //% block="3"
-    3,
-    //% block="4"
-    4
-}
-
-enum BTN {
-    //% block="A"
-    A,
-    //% block="B"
-    B,
-    //% block="A+B"
-    AB
-}
-
-
 //% color="#1ca2e9" iconWidth=50 iconHeight=40
 namespace toolbox {
 
@@ -59,7 +31,7 @@ namespace toolbox {
     //% PIN2.shadow="dropdownRound"  PIN2.options="PIN_AnalogRead"
     export function analogRead(parameter: any, block: any) {
         let pin=parameter.PIN2.code;
-        Generator.addCode([`analogRead1(${pin})`,Generator.ORDER_UNARY_POSTFIX]);
+        Generator.addCode([`analogRead(${pin})`,Generator.ORDER_UNARY_POSTFIX]);
 
     }
 
@@ -69,7 +41,7 @@ namespace toolbox {
     export function analogWrite(parameter: any, block: any) {
         let pin=parameter.PIN3.code;
         let pwm=parameter.PWM.code;
-        Generator.addCode(`analogWrite1(${pin},${pwm});`);
+        Generator.addCode(`analogWrite(${pin},${pwm});`);
 
     }
 
